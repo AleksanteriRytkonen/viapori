@@ -2,17 +2,28 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { FrontpageComponent } from './frontpage/frontpage.component';
+
+import { routing } from './app.routing';
+import { EventComponent } from './event/event.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FrontpageComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    NgbModule.forRoot(),
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
