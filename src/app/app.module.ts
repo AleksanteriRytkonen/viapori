@@ -10,13 +10,17 @@ import { FrontpageComponent } from './frontpage/frontpage.component';
 
 import { routing } from './app.routing';
 import { EventComponent } from './event/event.component';
+import { FooterComponent } from './footer/footer.component';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FrontpageComponent,
-    EventComponent
+    EventComponent,
+    FooterComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
