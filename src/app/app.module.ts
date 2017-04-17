@@ -12,6 +12,7 @@ import { routing } from './app.routing';
 import { EventComponent } from './event/event.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImageComponent } from './image/image.component';
+import { ArtWalkComponent } from './art-walk/art-walk.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ImageComponent } from './image/image.component';
     FrontpageComponent,
     EventComponent,
     FooterComponent,
-    ImageComponent
+    ImageComponent,
+    ArtWalkComponent
   ],
   imports: [
     BrowserModule,

@@ -7,3 +7,7 @@
 .sininen {
   color: rgb(35, 166, 195);
 }
+
+.cursor {
+  cursor: pointer;
+}
