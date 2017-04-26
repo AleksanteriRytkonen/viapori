@@ -16,3 +16,7 @@
   cursor: not-allowed;
   color: gray;
 }
+
+.otsikko::first-letter {
+  text-transform: uppercase;
+}
