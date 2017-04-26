@@ -13,6 +13,7 @@ import { EventComponent } from './event/event.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImageComponent } from './image/image.component';
 import { ArtWalkComponent } from './art-walk/art-walk.component';
+import { YhteystiedotComponent } from './yhteystiedot/yhteystiedot.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ArtWalkComponent } from './art-walk/art-walk.component';
     EventComponent,
     FooterComponent,
     ImageComponent,
-    ArtWalkComponent
+    ArtWalkComponent,
+    YhteystiedotComponent
   ],
   imports: [
     BrowserModule,
