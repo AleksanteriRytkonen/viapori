@@ -14,6 +14,9 @@ import { FooterComponent } from './footer/footer.component';
 import { ImageComponent } from './image/image.component';
 import { ArtWalkComponent } from './art-walk/art-walk.component';
 import { YhteystiedotComponent } from './yhteystiedot/yhteystiedot.component';
+import { LapsilleComponent } from './lapsille/lapsille.component';
+import { MuseotComponent } from './museot/museot.component';
+import { RavintolatKahvilatComponent } from './ravintolat-kahvilat/ravintolat-kahvilat.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { YhteystiedotComponent } from './yhteystiedot/yhteystiedot.component';
     FooterComponent,
     ImageComponent,
     ArtWalkComponent,
-    YhteystiedotComponent
+    YhteystiedotComponent,
+    LapsilleComponent,
+    MuseotComponent,
+    RavintolatKahvilatComponent
   ],
   imports: [
     BrowserModule,

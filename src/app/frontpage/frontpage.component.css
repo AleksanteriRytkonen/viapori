@@ -20,3 +20,17 @@
 .otsikko::first-letter {
   text-transform: uppercase;
 }
+img {
+  width:80px;
+  height:70px;
+}
+
+.otsikkomargin {
+  margin-top:12%;
+}
+
+@media screen and (max-width: 500px) {
+  .otsikkomargin {
+    margin-top:0%;
+  }
+}
