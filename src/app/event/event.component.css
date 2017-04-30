@@ -1,6 +1,12 @@
-/*.table {
-  min-width: 1000px;
-}*/
-td {
-    min-width:200px;
+.carousel img {
+  height:100%;
+  width:100%;
+}
+.mar {
+  margin: 0 auto;
+}
+.standalone img {
+  height: 400px;
+  width: 100%;
+  padding-top:10px;
 }

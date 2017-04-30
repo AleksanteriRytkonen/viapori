@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+h1, h2, h3, h4 {
+	font-family: Helvetica;
+}
+li {
+  /*list-style: none;*/
+}
+.carousel-control-next{
+	opacity:1 !important;
+}
+.carousel-control-prev{ opacity:1 !important;}
+
+.carousel img {
+  height:100%;
+  width:100%;
+}
+.mar {
+  margin: 0 auto;
+}
+.standalone img {
+  max-height: 350px;
+  width: 100%;
+	max-width:550px;
+  padding-top:10px;
+}
+
+h1 {
+	font-size: 36px;
+}
+h5 {
+	font-size: 18px;
+}
+p, li {
+	font-size: 14px;
+}
