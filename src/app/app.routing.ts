@@ -6,6 +6,7 @@ import { YhteystiedotComponent } from './yhteystiedot/yhteystiedot.component';
 import { LapsilleComponent } from './lapsille/lapsille.component';
 import { MuseotComponent } from './museot/museot.component';
 import {RavintolatKahvilatComponent} from './ravintolat-kahvilat/ravintolat-kahvilat.component';
+import {LevyhalliComponent} from './levyhalli/levyhalli.component';
 
 const APP_ROUTES: Routes = [
   { path: '', component: FrontpageComponent },
@@ -14,7 +15,8 @@ const APP_ROUTES: Routes = [
   { path: 'yhteystiedot', component: YhteystiedotComponent },
   { path: 'lapsille', component: LapsilleComponent },
   { path: 'museot', component: MuseotComponent },
-  { path: 'ravintolat-kahvilat', component: RavintolatKahvilatComponent }
+  { path: 'ravintolat-kahvilat', component: RavintolatKahvilatComponent },
+  { path: 'levyhalli', component: LevyhalliComponent }
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);

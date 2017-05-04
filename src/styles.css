@@ -33,3 +33,15 @@ h5 {
 p, li {
 	font-size: 14px;
 }
+.aw {
+	color:#D8006C;
+}
+
+@media (max-width: 769px) {
+	.standalone img {
+		display: none;
+	}
+}
+.bottom {
+	padding-bottom:20%;
+}

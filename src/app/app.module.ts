@@ -18,6 +18,7 @@ import { YhteystiedotComponent } from './yhteystiedot/yhteystiedot.component';
 import { LapsilleComponent } from './lapsille/lapsille.component';
 import { MuseotComponent } from './museot/museot.component';
 import { RavintolatKahvilatComponent } from './ravintolat-kahvilat/ravintolat-kahvilat.component';
+import { LevyhalliComponent } from './levyhalli/levyhalli.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { RavintolatKahvilatComponent } from './ravintolat-kahvilat/ravintolat-ka
     YhteystiedotComponent,
     LapsilleComponent,
     MuseotComponent,
-    RavintolatKahvilatComponent
+    RavintolatKahvilatComponent,
+    LevyhalliComponent
   ],
   imports: [
     BrowserModule,

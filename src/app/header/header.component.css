@@ -4,3 +4,16 @@
     height:200px;
   }
 }
+.container {
+  max-height:50px;
+}
+i {
+  margin-top:10px;
+  margin-left:20px;
+}
+.fa-instagram {
+  color:black;
+}
+.fa-facebook-official {
+  color:#3b5998;
+}
