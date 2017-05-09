@@ -15,6 +15,13 @@ p, a {
 .tausta {
   background-color: #f5f5f5;
 }
+.sponsorit {
+  margin-left: 1rem;
+  margin-bottom:2px;
+}
+.sponsorit img {
+  margin-left: 2rem;
+}
 
 @media screen and (max-width: 500px) {
   .tausta {
